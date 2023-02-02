@@ -15,7 +15,7 @@ const VoteBox =({party,candidates,handleInputChange})=> {
                     <div><b>{candidates.name}</b></div>
                     <div>{candidates.details}</div>
                 </div>
-                <button className='vote-now-button' onClick={handleInputChange}>
+                <button id={candidates.id} className='vote-now-button' onClick={handleInputChange}>
                     Vote
                 </button>
                 {/* {dialog ? <Dialog party={party} setDialog={setDialog} /> : ""} */}

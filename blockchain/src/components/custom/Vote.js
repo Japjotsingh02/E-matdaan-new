@@ -53,7 +53,7 @@ class Vote extends Component {
     }
 
     handleInputChange = (e) => {
-        console.log(e.target.id)
+        console.log(e.target.id,"hiiii");
         this.setState({
             selectedId: e.target.id,
         })
